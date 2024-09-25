@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+.main-page{
+    background-image: url('assets/Home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    height: 30px;
+    padding-left: 20px;
+    float:left;
+}
+.nav-bar {
+    width: 100%;
+    text-align: right;
+    padding: 15px 0px;
+    position: fixed;
+}
+.nav-link , .resume {
+    color: black;
+    margin: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+a:hover{
+    color: #00bbea;
+}
+
+.resume{
+    border-radius: 20px;
+    border: 3px solid #00bbea ;
+    border-color: black ; 
+    width: 10px;
+    height: 10px;
+    padding: 7px;
+    
+}
+.main-page-text , .main-page-heading{
+    text-align: left;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 300px;
+    margin-left: 20px;
+    color: black;
+    position: absolute;
+}
+.main-page-heading{
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 350px;
+    position: absolute;
+}
+.intro{
+    text-align: left;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 450px;
+    margin-left: 20px;
+    margin-right: 450px;
+    color: black;
+    position: absolute;
+}
+
+
+#about{
+    background-image: linear-gradient(to left,  #e5acc9, #eb0075) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.about-heading{
+    font-size: 70px;
+    padding-top: 90px;
+    text-align: center;
+}
+.about-image{
+    clip-path: circle(50% at 50% 50%);
+    margin-left: 40px;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.about-text{
+    text-align: justify;
+    padding-right: 100px;
+    font-size:20px;
+    font-family:cursive;
+    margin-top: 60px;
+    margin-left: 500px;
+}
+
+#experience{
+    background-image: linear-gradient(to left,  #e5acc9, #eb0075) ;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.experience-heading{
+    padding-top:80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.main-container-exp{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  grid-gap: 20px;
+}
+.container-exp{
+  display: block;
+  background-color: #f9d2e6;
+  height: 400px;
+  border-radius: 60px;
+  box-shadow: 0 5px 5px  #73003a;
+  text-align: center;
+}
+.exp-image-paloalto ,.exp-image-bharatintern ,.exp-image-baljiwan {
+  width: 80%;
+  height: 20%;
+  padding-top: 30px;
+}
+.exp-image-baljiwan{
+  padding-top: 20px;
+  width: 60%;
+  height: 35%;
+}
+.exp-content-heading , .exp-content{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  padding: 20px;
+  padding-top: 60px;
+  
+}
+.exp-content{
+  padding-top: 10px;
+  font-weight:300 ;
+  text-align: justify;
+}
+
+
+#contact{
+    background-image: url(assets/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.contact-heading{
+    text-decoration: underline;
+    padding-top: 160px;
+    padding-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.sub-heading-contact{
+    padding-top: 10px;
+    padding-left: 150px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.button{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #e5acc9;
+    overflow: hidden;
+    border-radius: 50px;
+    transition:all 0.5s ease-in-out;
+    box-shadow: 0 5px 5px #eb0075;
+}
+.button span{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 70px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 20px;
+    color: #031625;
+}
+.button span a{
+  text-decoration: none;
+  color: inherit;
+}
+.button:hover{
+    width: 280px;
+}
+.button .icon{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    display: inline-block;
+    transition:all 0.5s ease-in-out;
+}
+.button .icon i{
+    font-size: 35px;
+    line-height:70px ;
+    transition:all 0.3s ease-in-out;
+
+}
+.button:nth-child():hover .icon{
+    background: rgb(255, 86, 114);
+}
+.contact-info{
+  margin: 20px;
+  font-size: 20px;
+}
+.contact-info p a{
+  text-decoration: none;
+  color: inherit;
+}
+.form{
+  float: right;
+  margin-right: 150px;
+  margin-top: 100px;
+  font-weight: 800;
+  font-size: 20px;
+}
+.form label{
+  display: block;
+  margin: 0px 0px 15px 0px;
+}
+.form input[type="text"], input[type="number"] , input[type="email"], input[type="submit"] , textarea {
+  background-color: #e5acc9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px solid #e5acc9 ;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 15px;
+  width: 100%;
+  box-shadow: 0 5px 5px #eb0075;
+}
+.form input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.form  input[type="submit"]{
+  cursor:grab;
+  font-weight: 800;
+  font-size: inherit;
+  box-shadow: 0 5px 5px #eb0075;
+}
+  
+  
