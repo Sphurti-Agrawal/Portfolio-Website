@@ -105,8 +105,8 @@ a:hover{
     padding: 0px;
     border: 0px;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-size:auto;
+    height: 180vh;
     width: 100%;
 }
 .experience-heading{
@@ -135,9 +135,10 @@ a:hover{
   padding-top: 30px;
 }
 .exp-image-baljiwan{
-  padding-top: 20px;
-  width: 60%;
-  height: 35%;
+  padding-bottom: 0px;
+  border-bottom: 10px;
+  width: 50%;
+  height: 25%;
 }
 .exp-content-heading , .exp-content{
   font-family: 'Times New Roman', Times, serif;
@@ -145,6 +146,12 @@ a:hover{
   padding: 20px;
   padding-top: 60px;
   
+}
+.exp-content-heading-baljiwan {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  padding: 0px;
+  padding-top: 40px;
 }
 .exp-content{
   padding-top: 10px;
@@ -157,7 +164,7 @@ a:hover{
     background-image: url(assets/contact.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
 }
 .contact-heading{
